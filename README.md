@@ -1,0 +1,1 @@
+This repository contains a simple Rust program that demonstrates undefined behavior when using raw pointers with vectors. The program modifies a vector's element through a raw pointer, which can cause problems if the vector's capacity or layout changes. The solution shows the correct way to handle this using safe Rust methods.
